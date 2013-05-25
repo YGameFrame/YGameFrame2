@@ -15,15 +15,14 @@ import android.util.Log;
  * 
  */
 /**
-*<b>文件工具</b>
-*
-*<p>
-*<b>概述</b>：
-*处理文件操作的方便工具
-*
-*@author FeiYiyun
-*
-*/
+ * <b>文件工具</b>
+ * 
+ * <p>
+ * <b>概述</b>： 处理文件操作的方便工具
+ * 
+ * @author FeiYiyun
+ * 
+ */
 public final class YFileUtil
 {
 	private static final String strTag = "YFileUtil";
@@ -32,11 +31,15 @@ public final class YFileUtil
 	{
 	}
 
-	/**从assets文件夹中的文件读取文本。
-	*@param res 资源
-	*@param strFileName 文件名
-	*@return 读取到的字符串
-	*/
+	/**
+	 * 从assets文件夹中的文件读取文本。
+	 * 
+	 * @param res
+	 *                资源
+	 * @param strFileName
+	 *                文件名
+	 * @return 读取到的字符串
+	 */
 	public static String readFileFromAssets(Resources res, String strFileName)
 	{
 		InputStream inpt_strm = null;

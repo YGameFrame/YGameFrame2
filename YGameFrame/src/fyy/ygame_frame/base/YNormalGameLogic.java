@@ -4,19 +4,17 @@ import fyy.ygame_frame.extra.YITask;
 import fyy.ygame_frame.extra.YRequest;
 
 /**
-*<b>普通游戏逻辑</b>
-*
-*<p>
-*<b>概述</b>：
-*继承自<b>游戏逻辑</b>{@link YGameView}，是一般游戏中常用逻辑。
-*
-*<p>
-*<b>注</b>：
-*应将该类名（不包括包名）设置为相应<b>游戏视图</b>的标签。
-*
-*@author FeiYiyun
-*
-*/
+ * <b>普通游戏逻辑</b>
+ * 
+ * <p>
+ * <b>概述</b>： 继承自<b>游戏逻辑</b>{@link YGameView}，是一般游戏中常用逻辑。
+ * 
+ * <p>
+ * <b>注</b>： 应将该类名（不包括包名）设置为相应<b>游戏视图</b>的标签。
+ * 
+ * @author FeiYiyun
+ * 
+ */
 public final class YNormalGameLogic extends YAGameLogic
 {
 

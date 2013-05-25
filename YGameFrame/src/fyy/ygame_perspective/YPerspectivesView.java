@@ -6,15 +6,15 @@ import fyy.ygame_frame.base.YABaseDomainView;
 import fyy.ygame_frame.base.YDrawInformation;
 
 /**
-*<b>‘∂æ∞Õº ”Õº</b>
-*
-*@author FeiYiyun
-*
-*/
+ * <b>‘∂æ∞Õº ”Õº</b>
+ * 
+ * @author FeiYiyun
+ * 
+ */
 public class YPerspectivesView extends YABaseDomainView<YPerspectivesData>
 {
 	private YPerspective[] perspectives;
-	
+
 	public YPerspectivesView(YPerspectivesData domainData)
 	{
 		super(domainData);
